@@ -1,4 +1,22 @@
-# 图一：太赫兹器件电磁建模需求
+# 图一：太赫兹领域中的电磁场建模应用
+
+## 第二版：正文放射结构配图
+
+按用户参考图采用“中心圆＋四向箭头＋四张应用子图”。中心为“电磁场建模”，四周为“高速通信、安检成像、生物传感、物质识别”，均对应最新申请书需求分析。不使用PPT制作skill，没有演讲大标题、编号、分栏或结论条。第一版保留在下方。
+
+![第二版预览](figure1_v2_preview.png)
+
+- [高清PNG（300 dpi，可直接插入Word）](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v2.png)
+- [PDF（保留文字和箭头矢量）](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v2.pdf)
+- [SVG](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v2.svg)
+- [可编辑PPTX](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v2.pptx)
+- [第二版完整压缩包](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v2.zip)
+
+建议图题：**图1 电磁场建模在太赫兹领域中的应用（概念示意）。**
+
+四张独立子图为生成的科研概念示意，非实验照片、实测或仿真结果；不表达定量光谱、穿透、传感或通信性能。中心、箭头与中文标签可在PPTX中编辑；正文使用建议选择高清PNG或PDF。
+
+## 第一版：需求叙事图
 
 - [下载 PowerPoint（图一.pptx）](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1.pptx)
 - [查看高清图片](figure1.png)
