@@ -1,5 +1,21 @@
 # 图一：太赫兹领域中的电磁场建模应用
 
+## 第三版：六类应用与器件—场—响应关系
+
+采用六向辐射布局，增加“无损检测”和“态势感知”；每个场景补充一条电磁建模作用短语。中心展示“器件结构 → 三维电磁场 → 电磁响应”，并以“设计优化”回环联系结构调整。保留正文插图风格，第一、二版均保留。
+
+![第三版预览](figure1_v3_preview.png)
+
+- [高清PNG（300 dpi，可直接插入正文）](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v3.png)
+- [PDF](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v3.pdf)
+- [可编辑PPTX](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v3.pptx)
+- [SVG](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v3.svg)
+- [第三版完整压缩包](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v3.zip)
+
+建议图题：**图1 太赫兹电磁场建模的典型应用及其与器件设计的关系（概念示意）。**
+
+场景、中心场切片和响应曲线均为定性概念示意，不是测量或数值仿真结果。原生文字、连接、中心场切片和响应曲线可在PPTX中编辑。
+
 ## 第二版：正文放射结构配图
 
 按用户参考图采用“中心圆＋四向箭头＋四张应用子图”。中心为“电磁场建模”，四周为“高速通信、安检成像、生物传感、物质识别”，均对应最新申请书需求分析。不使用PPT制作skill，没有演讲大标题、编号、分栏或结论条。第一版保留在下方。
