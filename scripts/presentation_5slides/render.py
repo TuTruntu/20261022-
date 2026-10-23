@@ -7,7 +7,7 @@ from PIL import Image, ImageOps, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'downloads/presentation_5slides'
-PPTX = OUT / 'thz_background_objectives_5slides.pptx'
+PPTX = OUT / 'thz_background_objectives_5slides_revised.pptx'
 subprocess.run(['soffice','--headless','--convert-to','pdf','--outdir',str(OUT),str(PPTX)],check=True,cwd=ROOT)
 PDF = PPTX.with_suffix('.pdf')
 expected = ['研究背景及现状','现有电磁建模方法','现有研究面临的具体挑战','研究目标','研究目标实现面临的困难']
@@ -16,7 +16,7 @@ with fitz.open(PDF) as pdf:
     assert len(pdf) == 5, f'Expected five slides, found {len(pdf)}'
     for i,page in enumerate(pdf):
         assert expected[i] in page.get_text(), (i+1,expected[i])
-        target = OUT / f'slide_{i+1:02d}.png'
+        target = OUT / f'revised_slide_{i+1:02d}.png'
         page.get_pixmap(dpi=144,alpha=False).save(target)
         # The contact sheet is a document preview, not an edited scientific asset.
         tile = Image.open(target).convert('RGB')
@@ -27,5 +27,5 @@ with fitz.open(PDF) as pdf:
         tiles.append(framed)
 sheet=Image.new('RGB',(1648,1470),'white')
 for i,tile in enumerate(tiles):sheet.paste(tile,((i%2)*824,(i//2)*490))
-sheet.save(OUT/'preview_all.png')
+sheet.save(OUT/'preview_revised.png')
 print('Rendered five pages, Chinese headings present:',OUT)

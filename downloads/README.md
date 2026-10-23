@@ -1,6 +1,6 @@
 # 图一：太赫兹领域中的电磁场建模应用
 
-新增交付：[研究背景、现状与目标五页PPT](presentation_5slides/README.md)（含可编辑PPTX、PDF和逐页预览）。
+新增交付：[研究背景、现状与目标五页PPT修订版](presentation_5slides/README.md)（前三页按背景、方法、挑战分工；含可编辑PPTX、PDF和逐页预览）。
 
 ## 第四版：中心发光与六向照射
 
