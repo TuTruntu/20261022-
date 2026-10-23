@@ -1,5 +1,19 @@
 # 图一：太赫兹领域中的电磁场建模应用
 
+## 第四版：中心发光与六向照射
+
+在第三版六类应用布局上，为中心建模区增加柔和青蓝光晕，并以六道向外展开的光束连接应用子图。原有文字、子图和科学关系保持清晰；第三版和更早版本均保留。
+
+![第四版预览](figure1_v4_preview.png)
+
+- [高清PNG（300 dpi）](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v4.png)
+- [可编辑PPTX](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v4.pptx)
+- [PDF](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v4.pdf)
+- [SVG](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v4.svg)
+- [第四版完整压缩包](https://github.com/TuTruntu/20261022-/raw/refs/heads/main/downloads/figure1_v4.zip)
+
+光效用于强调中心建模对六类应用的支撑联系，属于概念性视觉表达。
+
 ## 第三版：六类应用与器件—场—响应关系
 
 采用六向辐射布局，增加“无损检测”和“态势感知”；每个场景补充一条电磁建模作用短语。中心展示“器件结构 → 三维电磁场 → 电磁响应”，并以“设计优化”回环联系结构调整。保留正文插图风格，第一、二版均保留。
